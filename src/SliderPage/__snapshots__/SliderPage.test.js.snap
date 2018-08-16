@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SliderPage/> should render correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="input-container"
+  >
+    <input
+      autoFocus={true}
+      className="title"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Enter a title"
+      type="text"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+    >
+      Add New Slide
+    </button>
+  </div>
+  <div>
+    <Slider
+      dots={false}
+      infinite={false}
+      responsive={
+        Array [
+          Object {
+            "breakpoint": 600,
+            "settings": Object {
+              "dots": true,
+            },
+          },
+        ]
+      }
+      slidesToScroll={1}
+      slidesToShow={3}
+      speed={500}
+    />
+  </div>
+</div>
+`;
+
+exports[`<SliderPage/> should render with items correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="input-container"
+  >
+    <input
+      autoFocus={true}
+      className="title"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Enter a title"
+      type="text"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+    >
+      Add New Slide
+    </button>
+  </div>
+  <div>
+    <Slider
+      dots={false}
+      infinite={false}
+      responsive={
+        Array [
+          Object {
+            "breakpoint": 600,
+            "settings": Object {
+              "dots": true,
+            },
+          },
+        ]
+      }
+      slidesToScroll={1}
+      slidesToShow={3}
+      speed={500}
+    >
+      <div
+        className="item"
+        key="0"
+      >
+        <h3>
+          Test 1
+        </h3>
+      </div>
+      <div
+        className="item"
+        key="1"
+      >
+        <h3>
+          Test 2
+        </h3>
+      </div>
+      <div
+        className="item"
+        key="2"
+      >
+        <h3>
+           Test 3
+        </h3>
+      </div>
+      <div
+        className="item"
+        key="3"
+      >
+        <h3>
+          Test 4
+        </h3>
+      </div>
+    </Slider>
+  </div>
+</div>
+`;
