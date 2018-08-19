@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Slider/> should render correctly 1`] = `
+<div
+  className="slider-container"
+>
+  <div
+    className="arrow"
+  >
+    <button
+      disabled={true}
+      onClick={[Function]}
+    >
+      &lt;
+    </button>
+  </div>
+  <SlideList
+    items={Array []}
+  />
+  <div
+    className="arrow"
+  >
+    <button
+      disabled={true}
+      onClick={[Function]}
+    >
+      &gt;
+    </button>
+  </div>
+</div>
+`;
