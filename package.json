@@ -28,6 +28,7 @@
       "src/**/*.{js,jsx}",
       "!<rootDir>/node_modules/",
       "!src/registerServiceWorker.js",
+      "!src/setupTests.js",
       "!src/**/index.js",
       "!src/index.js"
     ]

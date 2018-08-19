@@ -40,15 +40,6 @@ describe('<SliderEntryForm/>', () => {
     });
   });
 
-
-  it.skip('should call textInput when input focuses', () => {
-    wrapper = mount(<SliderEntryForm />)
-    const { textInput } = wrapper.instance();
-    jest.spyOn(textInput, "focus");
-    wrapper.instance().componentDidMount();
-    expect(textInput.focus).toHaveBeenCalledTimes(1);
-  })
-
   describe('when user type in text input', () => {
     it('should update state correctly', () => {
       wrapper.find('input').find({type: 'text'}).first().simulate('change',  { target: { value: 'Test 1' } })
