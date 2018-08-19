@@ -1,0 +1,21 @@
+.input-container {
+  display: flex;
+  margin: 0 auto;
+  padding: 40px;
+  width: 90%;
+  color: #333;
+}
+
+input {
+  height: 40px;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+button {
+  width: 140px;
+  margin-left: 15px;
+}

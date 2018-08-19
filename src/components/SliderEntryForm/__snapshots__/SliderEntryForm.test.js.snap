@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SliderEntryForm/> should render correctly 1`] = `
+<div
+  className="input-container"
+>
+  <input
+    autoFocus={true}
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Enter a title"
+    type="text"
+    value=""
+  />
+  <button
+    onClick={[Function]}
+  >
+    Add New Slide
+  </button>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SlideList/> should render correctly with items 1`] = `
+<div
+  className="slider-content"
+>
+  <div
+    className="slider-item"
+    key="0"
+  >
+    1
+  </div>
+  <div
+    className="slider-item"
+    key="1"
+  >
+    2
+  </div>
+  <div
+    className="slider-item"
+    key="2"
+  >
+    3
+  </div>
+</div>
+`;
