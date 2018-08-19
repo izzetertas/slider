@@ -12,3 +12,23 @@ exports[`<SliderPage/> should render correctly 1`] = `
   />
 </div>
 `;
+
+exports[`<SliderPage/> should render with items correctly 1`] = `
+<div
+  className="container"
+>
+  <SliderEntryForm
+    onSubmit={[Function]}
+  />
+  <Slider
+    items={
+      Array [
+        "Test 1",
+        "Test 2",
+        " Test 3",
+        "Test 4",
+      ]
+    }
+  />
+</div>
+`;
