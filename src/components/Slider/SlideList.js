@@ -1,4 +1,5 @@
 import React from 'react'
+import Slide from './Slide'
 import './Slider.css'
 
 const SlideList = ({ items }) => {
@@ -8,9 +9,7 @@ const SlideList = ({ items }) => {
     <div className='slider-content'>
     {
       items.map((item, i) => (
-        <div className='slider-item' key={i}>
-          {item}
-        </div>
+        <Slide content={item} key={i}/>
       ))
     }
     </div>

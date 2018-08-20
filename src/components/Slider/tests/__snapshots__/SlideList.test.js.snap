@@ -1,26 +1,48 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SlideList/> should render correctly with items 1`] = `
-<div
-  className="slider-content"
+<SlideList
+  items={
+    Array [
+      "1",
+      "2",
+      "3",
+    ]
+  }
 >
   <div
-    className="slider-item"
-    key="0"
+    className="slider-content"
   >
-    1
+    <Slide
+      content="1"
+      key="0"
+    >
+      <div
+        className="slider-item"
+      >
+        1
+      </div>
+    </Slide>
+    <Slide
+      content="2"
+      key="1"
+    >
+      <div
+        className="slider-item"
+      >
+        2
+      </div>
+    </Slide>
+    <Slide
+      content="3"
+      key="2"
+    >
+      <div
+        className="slider-item"
+      >
+        3
+      </div>
+    </Slide>
   </div>
-  <div
-    className="slider-item"
-    key="1"
-  >
-    2
-  </div>
-  <div
-    className="slider-item"
-    key="2"
-  >
-    3
-  </div>
-</div>
+</SlideList>
 `;

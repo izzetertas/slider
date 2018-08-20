@@ -6,7 +6,7 @@ import SlideList from '../SlideList'
 
 describe('<SlideList/>', () => {
   it('should render correctly with items', () => {
-    const wrapper = shallow(<SlideList items={['1', '2', '3']} />)
+    const wrapper = mount(<SlideList items={['1', '2', '3']} />)
     expect(toJson(wrapper)).toMatchSnapshot();
     expect(wrapper.find('div').length).toBe(4)
   })
